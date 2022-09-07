@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 650px;
+	margin: auto;
+	box-sizing: border-box;
+}
+.rata{
+	margin: 2px;
+}
+.bag1{
+	background-color: green;
+	width: 100%;
+	height: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.bag11{
+	color: white;
+	text-align: center;
+	font-family: market;
+	font-size: 20px;
+
+}
+.bag12{
+	color: goldenrod;
+	text-align: center;
+	font-family: calibri;
+	font-size: 13px;
+	margin-top: 3px;
+}
+.nav{
+	background-color: black;
+	width: 100%;
+	height: 25px;
+}
+.nav ul{
+	list-style: none;
+	text-align: center;
+	font-size: 10px;
+	padding: 7px;
+}
+.nav li{
+	display: inline-block;
+	padding-left: 10px;
+	color: white;
+}
+.nav li a{
+	color: white;
+	text-decoration-line: none;
+}
+.nav li a:hover{
+	color: red;
+}
+main{
+	width: 800px;
+	height: 460px;
+}
+.box1, .box2, .box3, .box4{
+	margin: 2px;
+	padding-left: 4px;
+	box-shadow: 1px 1px 3px 1px grey ;
+}
+.box1 p, .box2 p, .box3 p, .box4 p{
+	padding-left: 10px;
+	background-color: purple;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-family: calibri;
+	color: white;
+	border-radius: 10px;
+}
+.box1 img, .box2 img, .box3 img{
+	display: inline-flex;
+	width: 103px;
+	height: 103px;
+	border: solid #eee;
+	box-shadow: 1px 1px 3px 1px grey;
+}
+.box4{
+	height: 75px;
+	background-color: white;
+	box-shadow: 1px 1px 3px 1px grey ;
+	margin-bottom: 2px;
+}
+.parf{
+	padding-left: 10px;
+}
+aside{
+	background-color: white;
+	margin-top: 4px;
+	margin-right: 2px;
+	height: 250px;
+	width: 50%;
+	box-shadow: 1px 1px 3px 1px grey ;
+}
+.saya{
+	padding-left: 20px;
+	background-color: purple;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-family: calibri;
+	color: white;
+	border-radius: 10px;
+}
+.saya1{
+	font-family: calibri;
+	text-align: center;
+	font-size: 15px;
+}
+.saya2{
+	font-family: calibri ;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.saya3, .saya4, .saya5{
+	font-family: calibri ;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 3px;
+}
+.saya3 span, .saya4 span, .saya5 span{
+	font-weight: normal;
+}
+aside img{
+	margin-top: 10px;
+	margin-left: 34px;
+	width: 103px;
+	height: 103px;
+	border: solid #eee;
+	box-shadow: 1px 1px 3px 1px grey ;
+}
+footer{
+	background-color: black;
+	margin-top: 33px;
+	color: ghostwhite;
+	font-size: 10px;
+	font-family: arial;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
